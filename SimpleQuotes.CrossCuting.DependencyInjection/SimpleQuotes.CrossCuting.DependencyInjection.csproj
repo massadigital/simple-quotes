@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleQuotes.App.Contract\SimpleQuotes.App.Contract.csproj" />
+    <ProjectReference Include="..\SimpleQuotes.App.Handler\SimpleQuotes.App.Handler.csproj" />
+    <ProjectReference Include="..\SimpleQuotes.App.Mapping\SimpleQuotes.App.Mapping.csproj" />
+    <ProjectReference Include="..\SimpleQuotes.Data.Contract\SimpleQuotes.Data.Contract.csproj" />
+    <ProjectReference Include="..\SimpleQuotes.Data.Entity.Abstraction\SimpleQuotes.Data.Entity.Abstraction.csproj" />
+    <ProjectReference Include="..\SimpleQuotes.Data.Entity.MySql.Pomelo\SimpleQuotes.Data.Entity.MySql.Pomelo.csproj" />
+    <ProjectReference Include="..\SimpleQuotes.Data.Repository\SimpleQuotes.Data.Repository.csproj" />
+    <ProjectReference Include="..\SimpleQuotes.Domain.Contract\SimpleQuotes.Domain.Contract.csproj" />
+    <ProjectReference Include="..\SimpleQuotes.Domain.Service\SimpleQuotes.Domain.Service.csproj" />
+  </ItemGroup>
+
+</Project>

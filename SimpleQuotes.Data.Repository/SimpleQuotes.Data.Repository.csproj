@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleQuotes.Data.Contract\SimpleQuotes.Data.Contract.csproj" />
+    <ProjectReference Include="..\SimpleQuotes.Data.Entity.Abstraction\SimpleQuotes.Data.Entity.Abstraction.csproj" />
+    <ProjectReference Include="..\SimpleQuotes.Domain.Model\SimpleQuotes.Domain.Model.csproj" />
+  </ItemGroup>
+
+</Project>

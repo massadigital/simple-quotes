@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleQuotes.App.Contract\SimpleQuotes.App.Contract.csproj" />
+    <ProjectReference Include="..\SimpleQuotes.App.Model\SimpleQuotes.App.Model.csproj" />
+    <ProjectReference Include="..\SimpleQuotes.CrossCuting.DependencyInjection\SimpleQuotes.CrossCuting.DependencyInjection.csproj" />
+  </ItemGroup>
+
+
+</Project>
